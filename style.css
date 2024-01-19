@@ -1,0 +1,23 @@
+
+h1 {
+  color: yellowgreen;
+  text-align: center;
+}
+
+#zero {
+  text-align: center;
+}
+
+#inputbox {
+  width: 150px;
+	height: 150px;
+	background: green;
+  margin: 0 auto;
+}
+
+#output {
+  width: 150px;
+	/* height: 150px; */
+	background: blue;
+  margin: 0 auto;
+}
