@@ -1,27 +1,64 @@
 <!DOCTYPE html>
 <html lang="ja">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>❤ ONIKU</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
 
-<head>
-  <!-- <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="theme-color" content="#000000"> -->
-  <link rel="stylesheet" href="gators.css">
-</head>
+   <body>
+     <!-- 題名 -->
+     <h1 id="title">
+      <img src="title.JPG">
+      <span class="sub-title">oniku no subete 🐮🐽🥚</span>
+     </h1>
 
-<body>
-  <h1>test</h1>
-  <!-- <div><canvas id = "shikaku" style="border: solid 1px green;">代替コンテンツ</canvas></div> -->
-  <div id ="zero">
-    <div id ="inputbox">
-      <input id="input" type="text" value="" placeholder = "数値入力" size="10"/>
-      <button id ="button" value="送信">ワニ放出！</button>
-    </div>
-  </div>
-  <div id ="output"></div>
+     <!-- コメント -->
+     <h4>
+      <span id = anime>🎈</span>トライしたこと：
+         <br>　　0️⃣webページ作成　：レイアウト/表現
+         <br>　　1️⃣検索ツール　：データベース作成(未完)と検索結果を表示
+         <br>　　2️⃣リスト作成　：タスクや在庫管理
+         <br><span id = anime>🎈</span>テーマ：お肉🤣
+      </h4>
 
 
+   
+     <!-- serach -->
+     <h3>🍖
+      <span class="item">ONIKU SEARCH</span>
+     </h3>
+         <input id="search-input" type="text" value="" placeholder="meat parts">
+         <button id="button" type="button" value="send">🔎</button>
+         <p>部位の説明: <output  id="search-output" ></output></p>
+   </table>
 
-</body>
-<script src="gators.js"></script>
 
+     <!-- LIST -->
+      <h3>🍖<span class="item">ONIKU LIST</span></h3> 
+      <form>
+         <input class="task_item" type="text" placeholder="item">
+         <input class="task_item" type="text" placeholder="yy/mm/dd">
+         <!-- <input class="task_item" type="text" placeholder="notes"> -->
+         <button id="task_btn" type="button">🟢</button>
+      </form>
+      <div id="table">
+         <h2 class="current-Task">Item💡</h2>
+         <ul class="task_list"></ul>
+      </div>
+
+
+
+   <!-- Today's menue -->
+   <h3>🍖<span class="item">TODAY'S MENU</span></h3> 
+   <button id="btn1" type="button">🐂</button>
+   <button id="btn2" type="button">🐖</button>
+   <button id="btn3" type="button">🐓 </button>
+   <p>本日のオススメ⇒<output id="menue"></output></p>
+
+
+
+   </body>
+   <script src="script.js"></script>
 </html>
