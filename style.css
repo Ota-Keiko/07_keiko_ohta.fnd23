@@ -1,23 +1,122 @@
 
-h1 {
-  color: yellowgreen;
-  text-align: center;
+/* 全体調整 */
+
+body{
+  width: 1000px;
+  margin: auto;
 }
 
-#zero {
-  text-align: center;
+/* title */
+
+/* sub title */
+.sub-title {
+  font-size: 60%;
+  color:grey;
+  background-color: antiquewhite;
 }
 
-#inputbox {
-  width: 150px;
-	height: 150px;
-	background: green;
-  margin: 0 auto;
+
+/* comment */
+#anime {
+  animation: action 5s ease-in-out infinite;
 }
 
-#output {
-  width: 150px;
+@keyframes action {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+/* item deco */
+.item {
+  text-decoration:underline double blueviolet;
+}
+
+
+
+
+/*  serach  */
+#serach-input {
+  font-family:monospace, sans-serif;
+}
+  
+#search-output {
+    /* width: 50px; */
 	/* height: 150px; */
-	background: blue;
+	background: rgb(245, 224, 236);
   margin: 0 auto;
+  /* font-family:monospace, sans-serif;
+  border: 1px dotted gray;
+  padding: 10px;
+  margin: 5px;
+  width: 100px; */
+}
+
+
+
+
+
+
+/*  schedule  */
+.item-input {
+  font-family:monospace, sans-serif;
+}
+  
+.item-output {
+  border: 1px dotted #ccc;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+ 
+.task_item {
+  height: 1rem;
+}
+
+.task_due_date {
+  height: 1rem;
+}
+
+.task_notes {
+  height: 1rem;
+}
+  
+#task_btn {
+  height: 1.5rem;
+}
+  
+#table {
+  background-color: skyblue;
+  opacity: 70%;
+  width: 50%;
+  height: 200px;
+  border-radius: 1rem;
+  margin-top: 2rem;
+}
+  
+.current-Task {
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+  
+.task-list {
+  margin: 2rem 2rem 2rem 0;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+
+
+/* menue */
+
+#menue {
+  font-size:x-large;
+  text-decoration:underline rgb(243, 243, 11) dotted;
 }
